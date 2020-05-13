@@ -5,8 +5,9 @@ import Greeter from './components/Greeter';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Hi Pratik </Text>
-      <Greeter/>
+      <Text>Hi Pratik Shrestha </Text>
+
+      <Greeter greeting="Donnie" ButtonTitle="Tap me !!"/>
     </View>
   );
 }
